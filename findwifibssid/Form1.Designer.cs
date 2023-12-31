@@ -30,11 +30,11 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.wifiNameTextBox = new System.Windows.Forms.TextBox();
-            this.findButton = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.findButton = new System.Windows.Forms.Button();
             this.bssidTextbox = new System.Windows.Forms.TextBox();
+            this.wifiNameTextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,25 +60,18 @@
             this.groupBox1.Location = new System.Drawing.Point(21, 59);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(400, 195);
-            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "BSSID";
             // 
-            // label2
+            // label3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(36, 43);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 24);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Wifi Name";
-            // 
-            // wifiNameTextBox
-            // 
-            this.wifiNameTextBox.Location = new System.Drawing.Point(152, 43);
-            this.wifiNameTextBox.Name = "wifiNameTextBox";
-            this.wifiNameTextBox.Size = new System.Drawing.Size(221, 29);
-            this.wifiNameTextBox.TabIndex = 1;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(36, 130);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 24);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "BSSID";
             // 
             // findButton
             // 
@@ -90,21 +83,29 @@
             this.findButton.UseVisualStyleBackColor = true;
             this.findButton.Click += new System.EventHandler(this.findButton_Click);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(36, 130);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 24);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "BSSID";
-            // 
             // bssidTextbox
             // 
             this.bssidTextbox.Location = new System.Drawing.Point(152, 127);
             this.bssidTextbox.Name = "bssidTextbox";
+            this.bssidTextbox.ReadOnly = true;
             this.bssidTextbox.Size = new System.Drawing.Size(221, 29);
-            this.bssidTextbox.TabIndex = 1;
+            this.bssidTextbox.TabIndex = 3;
+            // 
+            // wifiNameTextBox
+            // 
+            this.wifiNameTextBox.Location = new System.Drawing.Point(152, 43);
+            this.wifiNameTextBox.Name = "wifiNameTextBox";
+            this.wifiNameTextBox.Size = new System.Drawing.Size(221, 29);
+            this.wifiNameTextBox.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(36, 43);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 24);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Wifi Name";
             // 
             // Form1
             // 
